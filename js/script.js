@@ -18,3 +18,7 @@ function getJoke() {
   });
   xhr.send();
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+	getJoke();
+});
